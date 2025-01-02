@@ -1,8 +1,18 @@
 
+body{
+    color: #444;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2em 15em;
+    box-shadow: 0 0 10px 2px #b9b6b6c0;
+}
+
 
 .header{
     background-color: #b9b6b6c0;
-    color: #050505b0;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -16,8 +26,8 @@
     border: none;
     outline: none;
 }
-.header input:focus{
-    outline: 2px solid #0d43d8c0;
+input:focus{
+    outline: 2px solid #9361bf;
 }
 .book-row{
     display: flex;
@@ -43,10 +53,32 @@
 }
 .delete-btn{
     height: 2em;
-    width: 6em;
+    width: 5em;
+    background-color: #9361bf;
+    border: none;
+    color: white;
+    border-radius: 0.5em;
 }
 .add-book{
     display: flex;
     justify-content: center;
-    gap: 1em;
+    /* gap: 1em; */
+}
+.add-book input{
+    padding: 1em;
+    border:2px solid #b9b6b6c0;
+}
+
+
+.add-book{
+    margin-bottom: 2em;
+}
+
+.add-book button{
+    background-color: #9361bf;
+    width: 4em;
+    border: none;
+    padding: 1em;
+    width: 8em;
+    color: white;
 }
