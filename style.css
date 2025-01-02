@@ -13,8 +13,40 @@
     width: 20em;
     margin-bottom: 2em;
     padding: 1%;
+    border: none;
+    outline: none;
+}
+.header input:focus{
+    outline: 2px solid #0d43d8c0;
+}
+.book-row{
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
 }
 .book{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+}
+
+.stick{
+    background-color: #b9b6b6c0;
+    padding: 0;
+    width: 0.5em;
+    margin: 0;
+    border: none;
+}
+
+.book-list{
+    margin: 2em;
+}
+.delete-btn{
+    height: 2em;
+    width: 6em;
+}
+.add-book{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 }
