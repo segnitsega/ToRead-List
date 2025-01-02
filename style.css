@@ -1,0 +1,20 @@
+
+
+.header{
+    background-color: #b9b6b6c0;
+    color: #050505b0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.header input{
+    width: 20em;
+    margin-bottom: 2em;
+    padding: 1%;
+}
+.book{
+    display: flex;
+    justify-content: space-between;
+}
